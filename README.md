@@ -1,8 +1,6 @@
 # 前言
 
-前些日子抽空学习了下react，因为近期忙着找工作，没时间写博客，今天我们就来看看用react全家桶，构建一个项目把，可能我学的也不是特别好，但是经过各种查资料，总算是能够构建出一个像模像样的栗子了。
-
-github地址：https://github.com/hua1995116/react-shopping
+学习react,体验一下react框架
 
 ## 脚手架
 
@@ -25,7 +23,7 @@ mkdir my-new-project && cd my-new-project
 yo react-webpack
 ```
 
-## 技术栈
+## 技术
 
 react+react-router+redux+ webpack + ES6 + fetch+antd
 
@@ -111,49 +109,15 @@ react+react-router+redux+ webpack + ES6 + fetch+antd
 - [x] 历史记录页面 -- 完成
 
 ## 项目运行
-**注意：由于涉及大量的 ES6 等新属性，nodejs 必须是 6.0 以上版本 。**
-```
-git clone https://github.com/hua1995116/react-shopping.git 
-
+``` 
 cd react-shopping
 
 npm install
 
-npm run start //运行
+npm run start //运行命令
 
-npm run dist //打包
+npm run dist //打包命令
 ```
-## 说明
->如果本项目对于你有帮助，请顺手进github点个star
-
->该项目已经在windows 7和mac进行测试。
-
-> 推荐一个vue2 的实战项目（仿网易云音乐） [http://blog.csdn.net/blueblueskyhua/article/details/68156734](http://blog.csdn.net/blueblueskyhua/article/details/68156734)
-
-> 另外推荐一个 vue2 + vuex 的实战项目（实时聊天系统，有后台代码）。[http://blog.csdn.net/blueblueskyhua/article/details/70807847](http://blog.csdn.net/blueblueskyhua/article/details/70807847)
-
->如果有什么更好的建议或者问题，请及时再下方评论留言。
-
-
-## 效果演示
-
-[http://www.qiufengh.com:8082](http://www.qiufengh.com:8082/)
-
-## 核心代码说明
-
-> **"react": "^15.0.0"**
-原本的 react package 被拆分为 react 及 react-dom 两个 package
-详细看官方api： [https://facebook.github.io/react/](https://facebook.github.io/react/)
-
->**"react-router": "^4.1.1"**
-React Router V4 基于 Lerna 管理多个 Repository。在此代码库包括：
- - react-router React Router 核心
- - react-router-dom 用于 DOM 绑定的 React Router
- - react-router-native 用于 React Native 的 React Router
- - react-router-redux React Router 和 Redux 的集成
- - react-router-config 静态路由配置帮助助手
-api ：[https://reacttraining.com/react-router/web/guides/quick-start](https://reacttraining.com/react-router/web/guides/quick-start)
-
 src/index.js
 ```
 import 'core-js/fn/object/assign'
@@ -189,7 +153,7 @@ ReactDOM.render(
 )
 ```
 
-主要定义了一些依赖。以及主入口模版文件Main.js
+依赖路由以及主入口文件Main.js
 
 src/components/Main.js
 ```
